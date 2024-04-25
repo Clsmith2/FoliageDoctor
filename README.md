@@ -1,2 +1,3 @@
 # FoliageDoctor
-mage recognition model is designed as a Convolutional Neural Network (CNN) using TensorFlow and Keras.
+image recognition model is designed as a Convolutional Neural Network (CNN) using TensorFlow and Keras. The input images, sourced from the "PlantVillage" dataset. The model architecture consists of three convolutional layers with ReLU activation functions, each followed by max-pooling layers for spatial downsampling. This is aimed at capturing hierarchical features in the input images. The final convolutional layer is followed by a flattening layer to transform the 2D feature maps into a vector, which is then connected to two dense layers. The model was then trained using the Adam optimizer. The model was then integrated into my web app using a FastAPI backend for handling image classification requests and a React frontend for a user-friendly web interface.
+
